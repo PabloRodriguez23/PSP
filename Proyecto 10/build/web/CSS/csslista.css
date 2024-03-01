@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+article {
+    width: calc(30% - 20px);
+    margin: 10px 0;
+    padding: 15px;
+    border: 1px solid #ccc;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+    article {
+        width: calc(35% - 20px);
+    }
+}
